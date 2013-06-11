@@ -95,16 +95,16 @@
 													<h2><xsl:value-of select="@subtitulo"/></h2>
 													<xsl:value-of select="@texto"/>
 												</div>
+												<div>
+													<a href="home/home_detail_1.html"><img alt="Espanol" src="img/flag/flag-es.gif" width="5%" height="5%"/></a>
+													<a href="home/home_detail_2.html"><img alt="Italiano" src="img/flag/flag-it.gif" width="5%" height="5%" /></a>
+												</div>
 											</td>
 										</tr>
 										<tr>
 											<td id="portal-column-content">
 												<div class="documentContentSmall" id="region-content">
 													<xsl:value-of select="@novedad"/>
-												</div>
-												<div>
-													<a href="home_detail_1.html"><img alt="Espanol" src="../img/flag/flag-es.gif"/></a>
-													<a href="home_detail_2.html"><img alt="Italiano" src="../img/flag/flag-it.gif"/></a>
 												</div>
 											</td>
 										</tr>
