@@ -1,0 +1,20 @@
+<html>
+<head>
+<title></title>
+<script>
+function popup(url,sName) {
+	var inicioTipo = 2;
+	var tamanoTipo = 4;
+	var tamanoTarget=6;
+    var objVPrincipal = null;
+    var op = null;
+    op = window.open(url,sName,'channelmode=no,directories=no,fullscreen=no,location=no,menubar=no,resizable=yes,scrollbars=no,status=yes,titlebar=yes,toolbar=no',false);
+	op.resizeTo(screen.availWidth+8,screen.availHeight+8);
+    op.moveTo(-4,-4);
+}
+</script>
+</head>
+<body>
+<script>popup('window.html','Window');</script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="refresh" content="60; url=home.html">
+<title>Francesco Luti</title>
+<link href='http://fonts.googleapis.com/css?family=Calligraffitti' rel='stylesheet' type='text/css'><style>
+/* set the background of the body */
+body {
+	margin: 0;
+	background: url(img/cover.jpg) center no-repeat;
+	-ms-behavior: url(backgroundsize.min.htc);
+}
+.bgsCover {
+	background-size: cover;
+}
+.bgsContain {
+	background-size: contain;
+}
+/* this allows to use a second background in all browsers and IE8 */
+
+/* less interesting stuff below */
+html, body {
+	height: 100%;
+	font-family: "Arial", "Liberation Sans", sans-serif;
+	color: #FEE;
+}
+
+a:link {color:#FFFFFF; text-decoration:none;}      /* unvisited link */
+a:visited {color:#FFFFFF; text-decoration:none;}  /* visited link */
+a:hover {color:#000000;}  /* mouse over link */
+a:active {color:#000000;}  /* selected link */ 
+
+h1 {
+	font-family: 'Calligraffitti', cursive;
+	text-align: center;
+	margin: 0 0 40px;
+	text-shadow: 0 0 2px #222;
+	font-size: 1.7em;
+	font-weight: normal;
+	position: relative;
+	top: 20px;
+}
+
+h1 i {
+	font-size: 1.3em;
+	display: block;
+	-moz-transform: rotate(-15deg);
+	-webkit-transform: rotate(-15deg);
+	-o-transform: rotate(-15deg);
+	-ms-transform: rotate(-15deg);
+	transform: rotate(-15deg);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#floater {
+    height: 200px;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    z-index: 5;
+}
+
+#text {
+    color: #FFFFFF;
+    display: block;
+    float: none;
+    font-size: 11px;
+    font-weight: bold;
+    height: 50px;
+    margin-top: 10px;
+    padding: 10px;
+    position: relative;
+    width: 250px;
+    z-index: 90;
+}
+
+#trans {
+    background: none repeat scroll 0 0 #000000;
+    float: none;
+    height: 500px;
+    opacity: 0.5;
+    position: relative;
+    width: 400px;
+    z-index: 50;
+}
+
+h2 {font-size:0.5em}
+
+</style>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script type="text/javascript">
+	$( document ).ready( function() {
+                var $body = $('body'); //Cache this for performance
+                
+                var setBodyScale = function() {
+                    var scaleFactor = 0.15,
+                        scaleSource = $body.width(),
+                        maxScale = 500,
+                        minScale = 10;
+
+                    var fontSize = scaleSource * scaleFactor; //Multiply the width of the body by the scaling factor:
+
+                    if (fontSize > maxScale) fontSize = maxScale;
+                    if (fontSize < minScale) fontSize = minScale; //Enforce the minimum and maximums
+
+                    $('#text').css('font-size', fontSize + '%');
+					$('#trans').css('height', fontSize*2 + '%');
+					$('#trans').css('width', fontSize + '%');
+                }
+            
+                $(window).resize(function(){
+                    setBodyScale();
+                });
+                
+                //Fire it when the page first loads:
+                setBodyScale();
+            });
+</script>
+
+</head>
+<body class="bgsCover">
+<div id="text">
+<div id="trans">
+<h2>
+	Uno, per conto mio, si ridipinge ovunque. Bisogna tenere sempre fresca la vernice e non
+	crederla mai secca e inutilizzabile. Tenerla in un luogo dove si possa conservare, pronta
+	al riuso, o al rinnovo. Anche se passano venti, quarant'anni; anche se noi ci crediamo
+	vecchi e crediamo di non potersi pi&uacute; muovere dal nostro luogo di sempre. Consci per&oacute;
+	che ogni rinuncia ha un prezzo, che ogni rinuncia assomiglia a un tradimento e magari
+	non lo &eacute;, e parimenti andare o restare, costituisce una rinuncia, comunque sia. Sono
+	scelte, e le scelte implicano rinunce, e che la vita &eacute; pi&uacute; vita se si sceglie.
+</h2>
+</div>
+</div>
+
+<div id="floater"><a href="home.html"><h1><i>Francesco Luti</i> web</h1></a></div>
+</body>
+</html>

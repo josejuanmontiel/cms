@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Cian Wigam's Window</title>
+
+<script language="javascript" type="text/javascript">
+    function cerrarandgo() {
+        var op = window.opener;
+        op.opener = self;
+        op.close();
+		document.location.href='http://www.accreativos.com/gallery/v/cianwigham';
+    }
+</script>
+
+</head>
+<body onload="cerrarandgo()">
+
+</body>
+</html>

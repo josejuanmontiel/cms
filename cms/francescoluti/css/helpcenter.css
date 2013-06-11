@@ -1,0 +1,57 @@
+/* 
+** Plone Help Center style sheet for CSS2-capable browsers.
+**
+** Copyright Alexander Limi - http://www.plonesolutions.com
+**
+** Feel free to use whole or parts of this for your own designs, but give credit
+** where credit is due.
+**
+*/
+
+/*  */
+
+.link-expand {
+    background: transparent url(http://plone.org/arrowDown.gif) 4px 5px no-repeat;
+    padding: 1px 0px 1px 16px;
+    display: block;
+    font-size: 85%;
+    float: right;
+}
+
+.faqMarker {
+    list-style-type: square;
+    list-style-image: url(http://plone.org/faq_icon.gif);
+}
+
+.tutorialAbout {
+    display: inline;
+    float: right;
+    background-color: #dee7ec;
+    border-color: #8cacbb;
+    border-width: 1px;
+    border-style: solid;
+    font-size: 85%;
+    margin: 0.5em 0 0.5em 0.5em;
+    padding: 1em;
+    width: 10em;
+    clear: right;
+}
+
+.portletHalfWidth {
+    width: 45%; 
+    float: left; 
+    padding: 0 1em 1em 0;
+}
+
+.portletThirdWidth {
+    width: 31%; 
+    float: left; 
+    padding: 0 1em 1em 0;
+}
+
+/* Image flagging outdated items in listings */
+.outdatedMarker {
+    
+}
+
+/*  */
