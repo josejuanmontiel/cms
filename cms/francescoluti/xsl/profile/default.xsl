@@ -91,8 +91,8 @@
 						    </div>
 						</div>
 					</div>
-
 				</td>
+				<td VALIGN="TOP" ALIGN="CENTER"><img src="upload/profile/profile.jpg" /></td>
 				<td id="portal-column-content">
 					<div id="content" class="">
 						<div class="documentContent" id="region-content">

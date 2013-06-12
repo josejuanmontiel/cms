@@ -12,6 +12,7 @@
 
 	<head>
 	    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+		<META HTTP-EQUIV="CACHE-CONTROL" CONTENT="NO-CACHE" />
 
 	    <title>Francesco Luti Web</title>
 

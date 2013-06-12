@@ -90,6 +90,7 @@
 						</div>
 					</div>
 				</td>
+				<td VALIGN="TOP" ALIGN="CENTER"><img src="upload/media/media.jpg" /></td>
 				<td id="portal-column-content">
 					<div id="content" class="">
 						<div class="documentContent" id="region-content">

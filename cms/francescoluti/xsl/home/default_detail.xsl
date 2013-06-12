@@ -97,8 +97,8 @@
 													<xsl:value-of select="@texto"/>
 												</div>
 												<div>
-													<a href="home/home_detail_1.html"><img alt="Espanol" src="img/flag/flag-es.gif" width="5%" height="5%"/></a>
-													<a href="home/home_detail_2.html"><img alt="Italiano" src="img/flag/flag-it.gif" width="5%" height="5%" /></a>
+													<a href="home_detail_1.html"><img alt="Espanol" src="../img/flag/flag-es.gif" width="5%" height="5%"/></a>
+													<a href="home_detail_2.html"><img alt="Italiano" src="../img/flag/flag-it.gif" width="5%" height="5%" /></a>
 												</div>
 											</td>
 										</tr>
