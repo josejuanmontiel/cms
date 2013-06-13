@@ -91,10 +91,8 @@
 						    </div>
 						</div>
 					</div>
+					<div class="visualPadding"><img src="upload/other_publication/other_publication.jpg" /></div>
 				</td>
-
-				<td VALIGN="TOP" ALIGN="CENTER"><img src="upload/other_publication/other_publication.jpg" /></td>
-
 				<td id="portal-column-content">
 					<div id="content" class="">
 						<div class="documentContent" id="region-content">

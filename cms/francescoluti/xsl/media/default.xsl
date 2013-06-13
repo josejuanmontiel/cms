@@ -89,19 +89,19 @@
 						    </div>
 						</div>
 					</div>
+					<div class="visualPadding"><img src="upload/media/media.jpg" /></div>
 				</td>
-				<td VALIGN="TOP" ALIGN="CENTER"><img src="upload/media/media.jpg" /></td>
 				<td id="portal-column-content">
 					<div id="content" class="">
 						<div class="documentContent" id="region-content">
 							<a name="documentContent"></a>
 
 							<div>
-								<h1 class="documentFirstHeading">Entrevistas</h1>
+								<h1 class="documentFirstHeading">INTERVIEWS</h1>
 							</div>
 
 							<xsl:for-each select="ROW">
-								<xsl:if test="@menu='Entrevistas' and @submenu=''">
+								<xsl:if test="@menu='INTERVIEWS' and @submenu=''">
 									<p>
 										<xsl:choose>
 									        <xsl:when test="@link!=''">
