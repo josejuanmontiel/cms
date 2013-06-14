@@ -91,14 +91,12 @@
 												<img src="../{@imagen}" alt="FrancescoLuti" />
 											</td>
 											<td>
-												<h1><xsl:value-of select="@novedad"/></h1>
+												<h1><xsl:value-of select="@novedad"/>
+													<a href="home_detail_1.html"><img alt="Espanol" src="../img/flag/flag-es.gif" width="5%" height="5%"/></a>
+													<a href="home_detail_2.html"><img alt="Italiano" src="../img/flag/flag-it.gif" width="5%" height="5%" /></a></h1>
 												<div class="documentContentSmall" id="region-content">
 													<h2><xsl:value-of select="@subtitulo"/></h2>
 													<xsl:value-of select="@texto"/>
-												</div>
-												<div>
-													<a href="home_detail_1.html"><img alt="Espanol" src="../img/flag/flag-es.gif" width="5%" height="5%"/></a>
-													<a href="home_detail_2.html"><img alt="Italiano" src="../img/flag/flag-it.gif" width="5%" height="5%" /></a>
 												</div>
 											</td>
 										</tr>
