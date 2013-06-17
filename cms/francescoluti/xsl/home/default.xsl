@@ -114,12 +114,13 @@
 											</td>
 											<td>
 												<h1><xsl:value-of select="@novedad"/>
-													<a href="home/home_detail_1.html"><img alt="Espanol" src="img/flag/flag-es.gif" width="5%" height="5%"/></a>
-													<a href="home/home_detail_2.html"><img alt="Italiano" src="img/flag/flag-it.gif" width="5%" height="5%" /></a></h1>
+													<a href="home/home_detail_1.html"><img alt="Espanol" src="img/flag/flag-es.gif"/></a>
+													<a href="home/home_detail_2.html"><img alt="Italiano" src="img/flag/flag-it.gif"/></a></h1>
 												<div class="documentContentSmall" id="region-content">
 													<h2><xsl:value-of select="@subtitulo"/></h2>
 													<xsl:value-of select="@texto"/>
 												</div>
+												<iframe src="http://player.vimeo.com/video/68497699?byline=0" width="500" height="281" frameborder="0" webkitAllowFullScreen="true" mozallowfullscreen="true" allowFullScreen="true"></iframe> <p><a href="http://vimeo.com/68497699">La goccia che scava</a>.</p>
 											</td>
 										</tr>
 									</table>
