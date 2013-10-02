@@ -106,8 +106,8 @@
 								</xsl:for-each>
 							</DIV>
 							<div>
-								<a href="https://www.facebook.com/profile.php?id=711801605"><img src="img/facebook.png"></img></a>
-								<a href="https://twitter.com/FrancescoLuti1"><img src="img/twitter.png"></img></a>
+								<a href="https://www.facebook.com/profile.php?id=711801605"><img src="../img/facebook.png"></img></a>
+								<a href="https://twitter.com/FrancescoLuti1"><img src="../img/twitter.png"></img></a>
 							</div>
 							 <div class="documentByLine">
 								 <span>cREATED BY</span>
